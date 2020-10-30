@@ -14,14 +14,14 @@ namespace XMLSerialization
             Employee emp = new Employee();
 
             emp.ID = 12;
-            emp.Name = "Moe";
+            emp.Name = "Moe Alshoubaki";
             emp.SSNumber = 123456789;
             emp.EntryDate = DateTime.Now;
 
             Console.WriteLine($"ID : {emp.ID} | Name : {emp.Name} | SSnumber : {emp.SSNumber} | Entry Date: {emp.EntryDate}");
 
             string filePath = @"C:\Users\Moe\Desktop\";
-            string fileName = "Data.xml";
+            string fileName = "oksecondpart.xml";
 
             TextWriter writer = new StreamWriter(filePath + fileName);
 
