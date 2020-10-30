@@ -19,5 +19,7 @@ namespace XMLSerialization
         public double SSNumber { get; set; }
         [XmlElement("Today's Date")]
         public DateTime EntryDate { get; set; }
+        [XmlIgnore]
+        public string JobRole { get; set; }
     }
 }
